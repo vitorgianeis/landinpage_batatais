@@ -127,6 +127,20 @@
             margin-bottom: 2rem;
         }
 
+        .home-img img {
+            position: absolute;
+            right: 300px;
+            top: 50%; /* Posiciona o topo da imagem no meio da tela */
+            transform: translateY(-50%); /* Move a imagem para cima metade da sua própria altura */
+            pointer-events: none;
+            max-width: 480px;
+            max-height: 100vh;
+            border-radius: 50%;
+            transition: var(--transicao);
+            border: 2px solid var(--cor-secundaria);
+            object-fit: cover;
+        }
+
         .btn {
             display: inline-block;
             padding: 1.2rem 2.8rem;
