@@ -34,7 +34,9 @@
             <a href="#services">Serviços</a>
             <a href="#reading">Leitura</a>
             <a href="#faq">Dúvidas</a>
+            <a href="#exhibitions">Exposições</a>
             <a href="#contact">Contato</a>
+              
         </nav>
 
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -120,6 +122,140 @@
         </div>
     </section>
 
+
+  <!-- Nova Seção de Exposições/Mural -->
+    <section class="exhibitions" id="exhibitions">
+        <h2 class="heading">Mural de <span>Exposições</span></h2>
+        
+        <div class="exhibitions-container">
+            <!-- Primeira Exposição -->
+            <div class="exhibition-card">
+                <img src="src/exposiçao.jfif" alt="📖✨ Entre Páginas: Marcas de Memórias Esquecidas ✉🔍" class="exhibition-img">
+                <div class="exhibition-content">
+                    <h3>📖✨ Entre Páginas: Marcas de Memórias Esquecidas ✉🔍</h3>
+                    <span class="exhibition-date">28 de Março de 2025</span>
+                    <p>📍 Venha desvendar esses segredos escondidos entre as páginas e descobrir que, às vezes, os livros guardam muito mais do que palavras. Talvez até um pedaço da sua própria história já esteja esperando para ser encontrado. 🕵‍♂📚✨</p>
+                    <button class="exhibition-btn" onclick="openModal('modal1')">Saiba mais</button>
+                </div>
+            </div>
+            
+            <!-- Segunda Exposição -->
+            <div class="exhibition-card">
+                <img src="src/visitas.jpg" alt="📍 Agende sua visita à Estação Cultura!" class="exhibition-img">
+                <div class="exhibition-content">
+                    <h3>📍 Agende sua visita à Estação Cultura!</h3>
+                    <span class="exhibition-date">15 de Abril de 2025</span>
+                    <p>Você sabia que a Estação Cultura de Batatais recebe visitas guiadas?</p>
+                    <button class="exhibition-btn" onclick="openModal('modal2')">Saiba mais</button>
+                </div>
+            </div>
+            
+            <!-- Terceira Exposição -->
+            <div class="exhibition-card">
+                <img src="src/teca e tuti 2.jpg" alt="Sessão Especial" class="exhibition-img">
+                <div class="exhibition-content">
+                    <h3>📚✨ Sessão Especial: "Teca e Tuti – Uma Noite na Biblioteca" 🎬🐛</h3>
+                    <span class="exhibition-date">2025</span>
+                    <p>📍Em comemoração ao Dia do Bibliotecário (12/03), a Biblioteca Pública Municipal Dr. Altino Arantes convida você para uma sessão especial da animação "Teca e Tuti: Uma Noite na Biblioteca"!</p>
+                    <button class="exhibition-btn" onclick="openModal('modal3')">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para a Primeira Exposição -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('modal1')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>📖✨ Entre Páginas: Marcas de Memórias Esquecidas ✉🔍</h2>
+                <div class="modal-date">28 de Março de 2025</div>
+            </div>
+            
+            <div class="modal-body">
+                <img src="src/exposiçao.jfif" alt="Exposição Entre Páginas" class="modal-image">
+                
+                <p>📍 Venha desvendar esses segredos escondidos entre as páginas e descobrir que, às vezes, os livros guardam muito mais do que palavras. Talvez até um pedaço da sua própria história já esteja esperando para ser encontrado. 🕵‍♂📚✨</p>
+                
+                <p>Nesta exposição única, convidamos você a explorar os tesouros escondidos que encontramos entre as páginas dos livros de nossa biblioteca. Cartas, fotografias, bilhetes e outros fragmentos de memórias esquecidas que contam histórias fascinantes de seus antigos donos.</p>
+                
+                <p>Descobrimos cartas de amor do início do século XX, receitas antigas, desenhos infantis e até mesmo um bilhete de loteria que poderia ter mudado uma vida. Cada objeto conta uma história única, congelada no tempo, esperando para ser redescoberta.</p>
+                
+                <p>📅 <strong>Data:</strong> 28 de Março a 30 de Abril de 2025</p>
+                <p>⏰ <strong>Horário:</strong> Segunda a sexta, das 8h30 às 17h | Sábados, das 9h às 12h</p>
+                <p>🎟️ <strong>Entrada:</strong> Gratuita</p>
+                <p>📍 <strong>Local:</strong> Biblioteca Dr. Altino Arantes - Estação Cultura, Batatais</p>
+                
+                <p>Não perca esta oportunidade de conectar-se com o passado e talvez até encontrar um pedaço da sua própria história entre nossas descobertas!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para a Segunda Exposição -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('modal2')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>📚 Agende sua visita à Estação Cultura! ✍️</h2>
+                <div class="modal-date"> 2025</div>
+            </div>
+            
+            <div class="modal-body">
+                <img src="src/visitas.jpg" alt=" Agende sua visita à Estação Cultura!" class="modal-image">
+                
+                <p>Estamos de portas abertas para escolas, grupos de estudantes, turmas da educação infantil ao ensino médio, instituições, grupos da terceira idade e demais interessados em conhecer de perto nossos espaços culturais!
+                        Como funciona? Durante a visita guiada, é apresentado os diferentes ambientes, com explicações sobre a história do prédio, das exposições, dos acervos e demais informações relevantes, tudo para enriquecer a experiência dos visitantes com contexto, curiosidades e orientações.
+                        O passeio inclui a visita à:
+                        📚 Biblioteca Pública Dr. Altino Arantes
+                        🏛️ Museu Histórico Pedagógico Dr. Washington Luís
+                        🎨 Galeria Con Silva de Arte Naïf
+                        🌿 Memorial dos Caiapós
+                        📖 E a exposição temporária em cartaz!
+                        ✨ Uma oportunidade rica em história, cultura e memória para todos os públicos.</p>
+                
+                <p>📅 <strong>Data:</strong> 2025</p>
+                <p>⏰ <strong>Horário:</strong> Segunda a sexta, das 8h30 às 17h | Sábados, das 9h às 12h</p>
+                <p>🎟️ <strong>Entrada:</strong> Gratuita</p>
+                <p>📍 <strong>Local:</strong> Biblioteca Dr. Altino Arantes - Estação Cultura, Batatais</p>
+                
+                <p>✅ Agendamentos e informações pelo WhatsApp (16) 3662-7785</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para a Terceira Exposição -->
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('modal3')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>🧒🌍 O Mundo através dos Olhos das Crianças 🎨</h2>
+                <div class="modal-date">5 de Maio de 2025</div>
+            </div>
+            
+            <div class="modal-body">
+                <img src="src/teca e tuti 2.jpg" alt="Exposição Infantil" class="modal-image">
+                
+                <p> 🐛📖 Teca é uma traça e Tuti um ácaro, e juntos embarcam em uma aventura mágica ao ficarem presos na biblioteca durante a noite. Com muita curiosidade e descobertas, eles mostram como os livros guardam histórias incríveis e nos levam para mundos fantásticos!</p>
+                
+                <p>📅 <strong>Data:</strong> 12 de março (quarta-feira)</p>
+                <p>⏰ <strong>Horário:</strong> 08:15h e 14:15h</p>
+                <p>🎟️ <strong>Entrada:</strong> Gratuita</p>
+                <p>📍 <strong>Local:</strong>  Biblioteca Pública Municipal Dr. Altino Arantes</p>
+                
+                <p>🎟 Entrada gratuita - Limitada!</p>
+            </div>
+        </div>
+    </div>
+
+    
+     
+
+
+
+
     <!-- FAQ Section -->
     <section class="faq" id="faq">
         <h2 class="heading">Perguntas <span>Frequentes</span></h2>
@@ -186,5 +322,38 @@
     <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
+    <script>
+        // Funções para abrir e fechar o modal
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Impede a rolagem da página quando o modal está aberto
+        }
+        
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+            document.body.style.overflow = 'auto'; // Restaura a rolagem da página
+        }
+        
+        // Fechar o modal se o usuário clicar fora dele
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        }
+        
+        // Fechar o modal com a tecla ESC
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                const modals = document.getElementsByClassName('modal');
+                for (let i = 0; i < modals.length; i++) {
+                    if (modals[i].style.display === 'block') {
+                        modals[i].style.display = 'none';
+                        document.body.style.overflow = 'auto';
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 </html>
